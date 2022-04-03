@@ -43,6 +43,8 @@ Le fichier est composé de 15 colonnes :
  - company : société de production
  - runtime : longueur du film
 
+le jeu données peut être retrouvé dans le fichier movies.csv ou directement sur le site : https://www.kaggle.com/datasets/danielgrijalvas/movies
+
 # Processus utilisé
 
 Le processus d'extraction des données des systèmes sources et de leur transfert dans l'entrepôt de données est communément appelé ETL, qui signifie extraction, transformation et chargement. 
