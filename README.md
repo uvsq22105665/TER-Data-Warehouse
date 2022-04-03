@@ -22,6 +22,27 @@ Nous avons identifié les logiciels suivants:
 Dans la suite du projet, nous avons décidé d'utiliser l'ETL open-source Pentaho et PostgreSQL
 # Présentation du jeu de données
 
+Le jeu de données que nous allons utiliser à travers ce projet provient du site kaggle, un site qui regroupe des jeu de données créées par des utilisateurs.
+Le jeu de données se nomme "Movie Industry" et a été créé à partir de données fournit par le site "Internet Movie Datase" (IMDb).
+Ce jeu de données regroupe 7669 films de 1986 à 2020. Pour chaque année, il y a environ 220 films enregistrés.
+Le fichier est composé de 15 colonnes :
+
+ - name : nom du film
+ - rating : classification du film
+ - genre : genre du film
+ - year : l'année de sortie
+ - released : la date de sortie 
+ - score : la note IMDb
+ - votes : le nombre de note donné par les utilisateur de IMDb
+ - director : nom et prénom du réalisateur
+ - writer : auteur du film
+ - star : acteur/actrice principale
+ - country : pays d'origine
+ - budget
+ - gross : profit
+ - company : société de production
+ - runtime : longueur du film
+
 # Processus utilisé
 
 Le processus d'extraction des données des systèmes sources et de leur transfert dans l'entrepôt de données est communément appelé ETL, qui signifie extraction, transformation et chargement. 
