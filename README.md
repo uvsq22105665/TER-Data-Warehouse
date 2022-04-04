@@ -17,7 +17,7 @@ En effet, la centralisation d'une quantité élevée d'informations offre un ape
 # Comment créer un datawarehouse ?
 
 Maintenant que nous connaissons l'utiliter d'un Entrepôt de données, il faut savoir comment le créer.
-Voci les étapes nécessaires ci-dessous:
+- Voci les étapes nécessaires sur la création d'un Entrepôt de données:
 * Identifier le besoin auprès des utilisateurs
 * Modéliser les données
 * Choisir l'architecture technique
