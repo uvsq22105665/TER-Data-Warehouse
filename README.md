@@ -8,6 +8,12 @@ L'objectif de ce projet est d'étudier quelques solutions open source pour const
  - Réaliser un démonstrateur à partur d'un jeu de
    données
    
+# Pourquoi créer un datawarehouse ?
+
+Un datawarehouse présente de nombreux avantages pour une entreprise et s'impose comme une solution incontournable à partir du moment ou la quantité de données à gérer est significative.
+À partir d'une certaine quandtité de données, il devient indispensable d'avoir recours à un datawarehouse pour centraliser les données dans un même endroit. Selon la nature des données, la capacité de stockage va de centaines de gigaoctets à des téraoctets.
+En effet, la centralisation d'une quantité élevée d'informations offre un aperçu complet d'ensembles de données hétérogènes et permet ainsi de prendre en compte tous les paramètres pertinents.
+   
 # Identification des logiciels et préliminaires
 Le fichier TER_1_1.md résume la phase préliminaire du projet qui consiste à identifier quelques logiciels open source, définit les mots-clés du projet et contient les datasets intéressant à étudier.
 Pour la réalisation et le succès de ce projet nous avons dans un premier temps re-grouper toute les information qui concernent Les entrepôts de données. 
