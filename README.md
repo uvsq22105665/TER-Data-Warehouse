@@ -4,8 +4,8 @@ L'objectif de ce projet est d'étudier quelques solutions open source pour const
 
 # Tâches à réaliser
  - Effectuer un panorama des principaux outils open source 
- - Selectionner un ensembe d'outils 
- - Réaliser un démonstrateur à partur d'un jeu de
+ - Selectionner un ensemble d'outils 
+ - Réaliser un démonstrateur à partir d'un jeu de
    données
    
 # Pourquoi créer un Entrepôt de données ?
@@ -37,7 +37,7 @@ Nous avons identifié les logiciels suivants:
 Dans la suite du projet, nous avons décidé d'utiliser l'ETL open-source Pentaho et PostgreSQL
 # Présentation du jeu de données
 
-Le jeu de données que nous allons utiliser à travers ce projet provient du site kaggle, un site qui regroupe des jeu de données créées par des utilisateurs.
+Le jeu de données que nous allons utiliser à travers ce projet provient du site kaggle, un site qui regroupe des jeux de données créées par des utilisateurs.
 Le jeu de données se nomme "Movie Industry" et a été créé à partir de données fournit par le site "Internet Movie Datase" (IMDb).
 Ce jeu de données regroupe 7669 films de 1986 à 2020. Pour chaque année, il y a environ 220 films enregistrés.
 Le fichier est composé de 15 colonnes :
@@ -58,7 +58,7 @@ Le fichier est composé de 15 colonnes :
  - company : société de production
  - runtime : longueur du film
 
-le jeu données peut être retrouvé dans le fichier movies.csv ou directement sur le site : https://www.kaggle.com/datasets/danielgrijalvas/movies
+le jeu de données peut être retrouvé dans le fichier movies.csv ou directement sur le site : https://www.kaggle.com/datasets/danielgrijalvas/movies
 
 # Processus utilisé
 
@@ -86,4 +86,6 @@ La transformation applique les règles définies en interne. Les normes qui gara
 * Déduplication : Transmettre un rapport sur les doublons aux personnes chargées de la gouvernance des données ; exclure et/ou supprimer les données redondantes
 * Vérification : Effectuer des vérifications automatisées pour comparer des données similaires telles que durée de transaction ou suivi des accès. Les tâches de vérification permettent d'éliminer les données inutilisables et de signaler les anomalies des systèmes, des applications ou des données.
 * Tri : Maximiser l'efficacité des data Warehouse en regroupant et stockant les objets par catégorie (données brutes, données audio, mails, etc.). Vos règles de transformation ETL conditionnent la catégorisation de chaque objet et sa prochaine destination. Le processus ETL est parfois utilisé pour générer des tables d'agrégation qui sont ensuite proposées dans des rapports de base ; dans ce cas, vous devez trier puis agréger les données.
+
+Les étapes pour charger le jeu de données dans Pentaho ETL et effectuer le lien avec PostgreSQL sont résumées dans le fichier Chargement ETL.md
 
