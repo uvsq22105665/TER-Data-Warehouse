@@ -64,7 +64,7 @@ le jeu de données peut être retrouvé dans le fichier movies.csv ou directemen
 Pour construire cet entrepôt de données, il faut au préalable choisir les dimensions et les mesures.
 Les dimensions sont des axes d'analyses qui nous permettront d'analyser les données sous différents axes et les mesures sont les valeurs numériques associées à ces dimensions.
 
- - Dimensions : rating, genre, year, released , director,writer,star, country, company
+ - Dimensions : name,rating, genre, year, released , director,writer,star, country, company
  - Mesures : score, votes, budget, gross, runtime
 
 # Processus utilisé
