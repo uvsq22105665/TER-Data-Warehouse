@@ -60,6 +60,13 @@ Le fichier est composé de 15 colonnes :
 
 le jeu de données peut être retrouvé dans le fichier movies.csv ou directement sur le site : https://www.kaggle.com/datasets/danielgrijalvas/movies
 
+## Dimensions et Mesures
+Pour construire cet entrepôt de données, il faut au préalable choisir les dimensions et les mesures.
+Les dimensions sont des axes d'analyses qui nous permettront d'analyser les données sous différents axes et les mesures sont les valeurs numériques associées à ces dimensions.
+
+ - Dimensions : rating, genre, year, released , director,writer,star, country, company
+ - Mesures : score, votes, budget, gross, runtime
+
 # Processus utilisé
 
 Le processus d'extraction des données des systèmes sources et de leur transfert dans l'entrepôt de données est communément appelé ETL, qui signifie extraction, transformation et chargement. 
