@@ -14,6 +14,13 @@ Un Entrepôt de données présente de nombreux avantages pour une entreprise et 
 À partir d'une certaine quandtité de données, il devient indispensable d'avoir recours à un datawarehouse pour centraliser les données dans un même endroit. Selon la nature des données, la capacité de stockage va de centaines de gigaoctets à des téraoctets.
 En effet, la centralisation d'une quantité élevée d'informations offre un aperçu complet d'ensembles de données hétérogènes et permet ainsi de prendre en compte tous les paramètres pertinents.
 
+# Quelles sont les bénéfices des Entrepôts de données ?
+* Permettent de mener des analyses poussées;
+* Fournissent une vue consolidée des données de
+l’entreprise;
+* Procurent de l’information de qualité, plus rapidement;
+* Libèrent les ressources dédiées au traitement des transactions des tâches d’analyse;
+
 # Comment créer un datawarehouse ?
 
 Maintenant que nous connaissons l'utiliter d'un Entrepôt de données, il faut savoir comment le créer.
