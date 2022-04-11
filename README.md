@@ -74,6 +74,13 @@ Les dimensions sont des axes d'analyses qui nous permettront d'analyser les donn
 Une dimension est une structure qui catégorise les faits et les mesures afin de permettre aux utilisateurs de répondre aux questions commerciales.
 La dimension est un ensemble de données composé d'éléments de données individuels qui ne se chevauchent pas.
 
+### Types	de	mesure
+ * Mesures	additives: Peuvent	être	agrégées	selon	n'importe	quelle	dimension;	
+ * Mesures	semi-additives: Peuvent	être	agrégées	selon	certaines	dimensions	seulement;
+ * Mesures	non-additives: Valeurs	numériques	ne	pouvant	être	agrégées	selon	
+aucune	dimension;
+
+### Definir nos dimensions et mesures
  - Dimensions : name, rating, genre, year, released, director, writer, star, country, company
  - Mesures : score, votes, budget, gross, runtime
 
