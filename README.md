@@ -38,10 +38,11 @@ Nous avons identifié les logiciels suivants:
 * MonetDB
 * Cloudera
 * Talend Open Stuido
-* pentaho
+* Pentaho
 * Ora2pg
+* Microsoft SQL Server SSIS
 
-Dans la suite du projet, nous avons décidé d'utiliser l'ETL open-source Pentaho et PostgreSQL
+Dans la suite du projet, nous avons décidé d'utiliser Microsoft SQL Server qui fournit des outils d'intégration pour la création d'un entrepot de données et des outils d'analyse sur cet entrepot
 # Présentation du jeu de données
 
 Le jeu de données que nous allons utiliser à travers ce projet provient du site kaggle, un site qui regroupe des jeux de données créées par des utilisateurs.
@@ -82,7 +83,9 @@ aucune	dimension;
 
 ### Definir nos dimensions et mesures
  - Dimensions : name, rating, genre, year, released, director, writer, star, country, company
- - Mesures : score, votes, budget, gross, runtime
+ - Mesures : score, votes, budget, gross, runtime 
+
+Les dimensions seront regroupées dans plusieurs tables de dimensions et la table des faits regroupera les mesures qui contiendra aussi les clés étrangères des tables de dimensions
 
 # Processus utilisé
 
