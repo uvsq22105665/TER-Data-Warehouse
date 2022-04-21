@@ -85,7 +85,7 @@ aucune	dimension;
  - Dimensions : name, rating, genre, year, released, director, writer, star, country, company
  - Mesures : score, votes, budget, gross, runtime 
 
-Les dimensions seront regroupées dans plusieurs tables de dimensions et la table des faits regroupera les mesures qui contiendra aussi les clés étrangères des tables de dimensions
+Les dimensions seront regroupées dans plusieurs tables de dimensions : DimActor, DimCompany, DimDirector, DimWriter, DimMovie et la table des faits FactTable regroupera les mesures qui contiendra aussi les clés étrangères des tables de dimensions
 
 # Processus utilisé
 
