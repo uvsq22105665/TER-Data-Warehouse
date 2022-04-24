@@ -87,6 +87,8 @@ aucune	dimension;
 
 Les dimensions seront regroupées dans plusieurs tables de dimensions : DimActor, DimCompany, DimDirector, DimWriter, DimMovie et la table des faits FactTable regroupera les mesures qui contiendra aussi les clés étrangères des tables de dimensions
 
+![alt text](https://github.com/uvsq22105665/TER-Data-Warehouse/blob/main/étoile.png?raw=true)
+
 # Processus utilisé
 
 Le processus d'extraction des données des systèmes sources et de leur transfert dans l'entrepôt de données est communément appelé ETL, qui signifie extraction, transformation et chargement. 
