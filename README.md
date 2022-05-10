@@ -125,12 +125,12 @@ Un cube OLAP permet de choisir les axes d'étude selon les dimensions et les mes
 La selection des données est gérée par des requêtes MDX (Multidimensional Expressions) qui permet de naviguer dans le cube.
 Sur notre jeu de données, la requete suivante permet par example de filtrer sur les films dont les revenues s'élèvent à moins de 100000 dollars 
 
-....
+```
 SELECT
 {[Measures].[Gross]} ON 0,
 FILTER(
     [Dim Movie].[Name Movie].Members,
     [Measures].[Gross] < 100000) ON 1
 FROM [Test DB]
-....
+```
 
