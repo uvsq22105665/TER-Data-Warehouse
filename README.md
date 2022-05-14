@@ -120,7 +120,7 @@ Les étapes pour charger le jeu de données dans Pentaho ETL et effectuer le lie
 
 # Structure de données
 
-La structure de données utilisée pour analyser le data warehouse est le cube OLAP. Ce cube permet d'effectuer des analyses multidimensionnelles sur les donnnées. La création du cube est décrit dans le fichier EtapeAnalyse du dossier "Résumé Etape".
+La structure de données utilisée pour analyser le data warehouse est le cube OLAP. Ce cube permet d'effectuer des analyses multidimensionnelles sur les donnnées. La technologie OLAP est présentée dans le fichier "Hyper Cube et Analyse Multidimensionnelle" du dossier "Concepts Importants" et La création du cube est décrit dans le fichier "EtapeAnalyse" du dossier "Résumé Etape".
 Un cube OLAP permet de choisir les axes d'étude selon les dimensions et les mesures définies préalablement. 
 La selection des données est gérée par des requêtes MDX (Multidimensional Expressions) qui permet de naviguer dans le cube.
 Sur notre jeu de données, la requete suivante permet par example de filtrer sur les films dont les revenues s'élèvent à moins de 100000 dollars 
@@ -133,4 +133,6 @@ FILTER(
     [Measures].[Gross] < 100000) ON 1
 FROM [Test DB]
 ```
+
+Ces requêtes vont nous permettre d'analyser nos données selon plusieurs axes de recherche, des exemples d'analyse sont retrouvable dans le dossier "Exemple Analyse"
 
