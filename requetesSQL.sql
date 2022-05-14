@@ -14,6 +14,7 @@ Create table DimCompany
 IdCompany int primary key identity,
 company varchar(max)
 )
+INSERT INTO DimCompany (company) SELECT distinct company FROM MovieData ;
 
 Create table DimDirector
 (
@@ -105,7 +106,7 @@ SET IdMovie = (select IdMovie from DimMovie where MovieData.nameMovie = DimMovie
 
 /**Remplit IdCompany**/
 UPDATE MovieData
-SET IdCompany = (select IdCompany from DimCompany where MovieData.company = DimMovie.company)
+SET IdCompany = (select IdCompany from DimCompany where MovieData.company = company)
 
 /**Remplit IdDirector**/
 UPDATE MovieData

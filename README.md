@@ -118,3 +118,19 @@ La transformation applique les règles définies en interne. Les normes qui gara
 
 Les étapes pour charger le jeu de données dans Pentaho ETL et effectuer le lien avec PostgreSQL sont résumées dans le fichier Chargement ETL.md
 
+# Structure de données
+
+La structure de données utilisée pour analyser le data warehouse est le cube OLAP. Ce cube permet d'effectuer des analyses multidimensionnelles sur les donnnées. La création du cube est décrit dans le fichier EtapeAnalyse du dossier "Résumé Etape".
+Un cube OLAP permet de choisir les axes d'étude selon les dimensions et les mesures définies préalablement. 
+La selection des données est gérée par des requêtes MDX (Multidimensional Expressions) qui permet de naviguer dans le cube.
+Sur notre jeu de données, la requete suivante permet par example de filtrer sur les films dont les revenues s'élèvent à moins de 100000 dollars 
+
+```
+SELECT
+{[Measures].[Gross]} ON 0,
+FILTER(
+    [Dim Movie].[Name Movie].Members,
+    [Measures].[Gross] < 100000) ON 1
+FROM [Test DB]
+```
+
